@@ -1,0 +1,22 @@
+{
+  "name": "hacker-next",
+  "version": "1.0.0",
+  "description": "A Hacker News clone made with Next.js",
+  "main": "server.js",
+  "author": "Kurochan, KuroyukiDev",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js -- NODE_ENV=production",
+    "build": "next build"
+  },
+  "license": "ISC",
+  "private": false,
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "next": "^8.1.0",
+    "osrs-wrapper": "^1.0.5",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "sw-precache-webpack-plugin": "^0.11.5"
+  }
+}
