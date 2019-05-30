@@ -7,7 +7,8 @@
   "scripts": {
     "dev": "node server.js",
     "start": "node server.js -- NODE_ENV=production",
-    "build": "next build"
+    "build": "next build",
+    "heroku-postbuild": "next build"
   },
   "license": "ISC",
   "private": false,
