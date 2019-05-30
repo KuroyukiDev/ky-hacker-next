@@ -10,7 +10,7 @@
     "build": "next build",
     "heroku-postbuild": "next build"
   },
-  "license": "ISC",
+  "license": "MIT",
   "private": false,
   "dependencies": {
     "isomorphic-fetch": "^2.2.1",
